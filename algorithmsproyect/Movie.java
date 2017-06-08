@@ -10,7 +10,7 @@ public class Movie {
     private int premier;
     
      public Movie() {
-         this.code = 0;
+        this.code = 0;
         this.title = "";
         this.gender = "";
         this.total = 0;
