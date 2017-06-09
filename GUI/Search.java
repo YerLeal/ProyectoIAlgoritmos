@@ -24,7 +24,6 @@ public class Search extends JInternalFrame implements ActionListener {
         this.jtfNameMovie = new JTextField();
         this.jbSearch = new JButton("Search");
         this.jbSearch.addActionListener(this);
-        this.jbSearch.setFocusable(false);
 
         this.jlNameMovie.setSize(200, 20);
         this.jtfNameMovie.setSize(200, 20);

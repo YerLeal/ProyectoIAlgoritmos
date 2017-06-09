@@ -1,15 +1,15 @@
 package algorithmsproyect;
 
 public class Movie {
-    
+
     private int code;
     private String title;
     private String gender;
     private int total;
     private int subtitled;
     private int premier;
-    
-     public Movie() {
+
+    public Movie() {
         this.code = 0;
         this.title = "";
         this.gender = "";
@@ -79,5 +79,5 @@ public class Movie {
     public String toString() {
         return "Movie{" + "code=" + code + ", title=" + title + ", gender=" + gender + ", total=" + total + ", subtitled=" + subtitled + ", premier=" + premier + '}';
     }
-   
+
 } // class

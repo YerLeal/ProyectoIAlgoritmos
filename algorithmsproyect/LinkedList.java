@@ -2,8 +2,8 @@ package algorithmsproyect;
 
 public class LinkedList {
 
-    protected Node start;
-    protected Node end;
+    public Node start;
+    public Node end;
     public int size;
 
     public LinkedList() {
@@ -27,6 +27,7 @@ public class LinkedList {
             newPtr.setLinkNext(start);
             start = newPtr;
         }//else
+        
         this.size++;
     } // insertAtStart
 
@@ -48,8 +49,7 @@ public class LinkedList {
             ptr = ptr.getLinkNext();
         }
         System.out.print(ptr.getData() + " <-> ");
-        //ptr = ptr.getLinkNext();
-        //System.out.print(ptr.getData()+ "\n");
+
     } // display
 
 } // class

@@ -23,7 +23,7 @@ public class Desktop extends JDesktopPane {
 
     protected void paintComponent(Graphics g) {
         Graphics2D g2 = (Graphics2D) g;
-        g2.drawImage(this.bufferedImage, 90, 180, null);
+        g2.drawImage(this.bufferedImage, 500, 180, null);
     } // paintComponent
     
 } // class
